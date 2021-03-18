@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>비비안웨스트우드</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE10"> -->
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta name="title" content="비비안웨스트우드">
+    <meta name="publisher" content="Choi ahyoung">
+    <meta name="author-date" content="2020-10-29">
+    <meta name="author" content="viviennewestwood">
+    <meta name="copyright" content="viviennewestwood">
+    <meta name="keywords" content="Westwood,비비안웨스트우드 웹사이트,비비안웨스트우드 사이트,비비안웨스트우드 공식스토어,비비안,비비안웨스트우드 몰">
+    <meta name="description" content="영국 패션 브랜드 비비안웨스트우드, 의류, 신발, 가방, 액세서리 등 제품소개 및 매장 안내">
+    <meta name="robots" content="index,follow">
+
+    <!-- 파비콘 -->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/ico">
+    <link rel="apple-touch-icon" href="./img/favicon.ico" type="image/ico">
+
+    <!-- 오픈 아이콘 -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" type="text/css" href="./css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="./css/common.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+
+    <script src="./js/lib/jquery-1.12.4.min.js"></script>
+    <script src="./js/lib/jquery.touchSwipe.js"></script>
+    <script src="./js/lib/prefixfree.min.js"></script>
+    <script src="./js/lib/jquery.easing.1.3.js"></script>
+    
+
+    
+    <!-- 
+    <script src="./js/lib/prefixfree.min.js"></script>
+    ///// 웹브라우저의 엔진 폴리필 밴더프리픽스/////
+    크롬,사파리  -webkit-transition:all 0.3s;
+    파이어폭스      -moz-transition:all 0.3s;
+    익스프롤러       -ms-transition:all 0.3s;
+    오페라            -o-transition:all 0.3s;
+                        transition:all 0.3s;
+    -->         
+
+
+
+   
+    <!--[if lte IE 9]>
+        <script src="./js/lib/IE9.js"></script>
+    <![endif]-->
+
+    <!--[if lte IE 8]>
+        <script src="./js/lib/html5shiv.min.js"></script>
+        <script src="./js/lib/jqPIE.js"></script>
+        <script src="./js/lib/PIE.js"></script>
+        <link rel="stylesheet" type="text/css" href="./css/ie8.css">
+    <![endif]-->
+
+    <!--[if lte IE 7]>
+        <link rel="stylesheet" type="text/css" href="./css/ie7.css">
+    <![endif]-->
+
+</head>
+<body>
+    
+    <ul id="skip">
+        <li><a href="#header" title="메뉴바로가기">메뉴바로가기</a></li>
+        <li><a href="#main" title="메인바로가기">메인바로가기</a></li>
+        <li><a href="#footer" title="하단바로가기">하단바로가기</a></li>
+    </ul>
+
+    <div id="wrap">
+        <div class="svc1-wrap">
+            <div class="search-wrap">
+                <div class="wrap fixedclear">
+                    <div class="left">
+                        <input type="search" name="fSearch" id="fSearch" value="" placeholder="SEARCH">
+                    </div>
+                    <div class="middle">
+                        <a href="javascript:void(0);" class="mark-btn" title="mark">
+                            <i class="mark mark1"></i>
+                            <i class="mark mark2"></i>
+                        </a>
+                    </div>
+                    <div class="right">
+                        <button type="button">SEE RESULTS</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="svc2-wrap">
+            <div class="login-wrap fixedclear">
+                <div class="log-left">
+                    <span><a href="#" title="로그인 / 회원가입">로그인 / 회원가입</a></span>
+                    <span class="close">
+                        <a href="javascript:void(0);" class="close-btn" title="close">×</a>
+                    </span>
+                    <h6>처음이신가요?</h6>
+                    <p>비비안웨스트우드 회원으로 가입하시면, 빠르고 편리하게 이용하실 수 있습니다.</p>
+                    <button type="button">회원가입</button>
+                </div>
+                <div class="log-right fixedclear">
+                    <h6>로그인</h6>
+                    <h5>로그인을 위해 이메일주소와 비밀번호를 입력해 주십시오.</h5>
+                    <div class="right-l">
+                        <input type="email" name="fEmail1" id="fEmail1" value="" placeholder="Email*">
+                        <span><a href="javascript:void(0);" class="login-btn" title="로그인">로그인</a></span>
+                    </div>
+                    <div class="right-r">
+                        <input type="password" name="fPass" id="fPass" value="" placeholder="Password*">
+                        <div>
+                            <input type="checkbox" name="fChk1" id="fChk1" value="로그인 상태 유지">
+                            <label for="fChk1">로그인 상태 유지</label>
+                            <button type="button">비밀번호 찾기</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="svc3-wrap">
+            <div class="shop-wrap fixedclear">
+                <div class="s-left">
+                    <h6>쇼핑백</h6>
+                    <span>(0)</span>
+                </div>
+                <div class="s-right">
+                    <h6>주문서 요약</h6>                       
+                    <a href="javascript:void(0);" class="mk-btn" title="mark">
+                        <i class="mk mk1"></i>
+                        <i class="mk mk2"></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+        <header id="header">
+            <aside id="aside">
+                <ul class="notice">
+                    <li><a href="#" class="first" title="신규가입 1만원쿠폰 & 5천 마일리지">신규가입 1만원쿠폰 & 5천 마일리지</a></li>
+                    <li><a href="#" class="second" title="무료 선물포장 서비스 & 무료 배송">무료 선물포장 서비스 & 무료 배송</a></li>
+                </ul>
+                <span class="next0-btn-wrap"><a href="javascript:void(0);" class="next0-btn blind" title="Next Button">Next Button</a></span>
+                <span class="prev0-btn-wrap"><a href="javascript:void(0);" class="prev0-btn blind" title="Prev Button">Prev Button</a></span>
+            </aside>
+            <div class="wrap fixedclear">
+                <div class="left">
+                    <nav id="nav">
+                        <ul>
+                            <li>
+                                <a href="#" class="main-btn" title="NEW ARRIVALS">NEW ARRIVALS</a>
+                                <div class="sub sub1">
+                                    <ul>
+                                        <li><a href="#" class="sub-btn" title="전체보기">전체보기</a></li>
+                                        <li>
+                                            <a href="#" class="sub-btn" title="여성">여성</a>
+                                            <div class="sub-sub sub-sub1">
+                                                <ul>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="전체보기">전체보기</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="sub-btn" title="남성">남성</a>
+                                            <div class="sub-sub sub-sub2">
+                                                <ul>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="전체보기">전체보기</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="main-btn" title="VW X EASTPAK">VW X EASTPAK</a>
+                                <div class="sub sub2">
+                                    <ul>
+                                        <li><a href="#" class="sub-btn" title="전체보기">전체보기</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="main-btn" title="여성">여성</a>
+                                <div class="sub sub3">
+                                    <ul>
+                                        <li><a href="#" class="sub-btn" title="전체보기">전체보기</a></li>
+                                        <li>
+                                            <a href="#" class="sub-btn" title="가방">가방</a>
+                                            <div class="sub-sub sub-sub3">
+                                                <ul>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="전체보기">전체보기</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="크로스백">크로스백</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="클러치백">클러치백</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="숄더백">숄더백</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="백팩">백팩</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="AFRICA BAGS">AFRICA BAGS</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="#" class="sub-btn" title="지갑">지갑</a>
+                                            <div class="sub-sub sub-sub4">
+                                                <ul>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="전체보기">전체보기</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="카드지갑">카드지갑</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="반지갑">반지갑</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="중지갑">중지갑</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="장지갑">장지갑</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="#" class="sub-btn" title="쥬얼리">쥬얼리</a>
+                                            <div class="sub-sub sub-sub5">
+                                                <ul>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="전체보기">전체보기</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="귀걸이">귀걸이</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="목걸이">목걸이</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="팔찌">팔찌</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="#" class="sub-btn" title="의류">의류</a>
+                                            <div class="sub-sub sub-sub6">
+                                                <ul>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="전체보기">전체보기</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="티셔츠">티셔츠</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="블라우스">블라우스</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="재킷">재킷</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="니트,가디건">니트,가디건</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="드레스">드레스</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="스커트">스커트</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="팬츠">팬츠</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="#" class="sub-btn" title="신발">신발</a>
+                                            <div class="sub-sub sub-sub7">
+                                                <ul>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="전체보기">전체보기</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="#" class="sub-btn" title="액세서리">액세서리</a>
+                                            <div class="sub-sub sub-sub8">
+                                                <ul>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="전체보기">전체보기</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="스카프">스카프</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="키링">키링</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="시계">시계</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="머플러">머플러</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="main-btn" title="남성">남성</a>
+                                <div class="sub sub4">
+                                    <ul>
+                                        <li><a href="#" class="sub-btn" title="전체보기">전체보기</a></li>
+                                        <li>
+                                            <a href="#" class="sub-btn" title="지갑">지갑</a>
+                                            <div class="sub-sub sub-sub9">
+                                                <ul>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="전체보기">전체보기</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="카드지갑">카드지갑</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="반지갑">반지갑</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="머니클립">머니클립</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="sub-btn" title="가방">가방</a>
+                                            <div class="sub-sub sub-sub10">
+                                                <ul>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="전체보기">전체보기</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="클러치백">클러치백</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="숄더백">숄더백</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="sub-btn" title="액세서리">액세서리</a>
+                                            <div class="sub-sub sub-sub11">
+                                                <ul>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="전체보기">전체보기</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="시계">시계</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="머플러">머플러</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="main-btn" title="SALE">SALE</a>
+                                <div class="sub sub5">
+                                    <ul>
+                                        <li><a href="#" class="sub-btn" title="전체보기">전체보기</a></li>
+                                        <li>
+                                            <a href="#" class="sub-btn" title="가방">가방</a>
+                                            <div class="sub-sub sub-sub12">
+                                                <ul>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="전체보기">전체보기</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="sub-btn" title="지갑">지갑</a>
+                                            <div class="sub-sub sub-sub13">
+                                                <ul>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="전체보기">전체보기</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="sub-btn" title="쥬얼리">쥬얼리</a>
+                                            <div class="sub-sub sub-sub14">
+                                                <ul>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="전체보기">전체보기</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="sub-btn" title="의류">의류</a>
+                                            <div class="sub-sub sub-sub15">
+                                                <ul>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="전체보기">전체보기</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="sub-btn" title="신발">신발</a>
+                                            <div class="sub-sub sub-sub16">
+                                                <ul>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="전체보기">전체보기</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="sub-btn" title="스카프/머플러">스카프/머플러</a>
+                                            <div class="sub-sub sub-sub17">
+                                                <ul>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="전체보기">전체보기</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="sub-btn" title="키링">키링</a>
+                                            <div class="sub-sub sub-sub18">
+                                                <ul>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="전체보기">전체보기</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="sub-btn" title="시계">시계</a>
+                                            <div class="sub-sub sub-sub19">
+                                                <ul>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="전체보기">전체보기</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#" class="main-btn" title="COLLECTIONS">COLLECTIONS</a>
+                                <div class="sub sub6">
+                                    <ul>
+                                        <li>
+                                            <a href="#" class="sub-btn" title="Vivienne Westwood">Vivienne Westwood</a>
+                                            <div class="sub-sub sub-sub20">
+                                                <ul>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="SS21-LookBook">SS21-LookBook</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="AW2021-LookBook">AW2021-LookBook</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="SS20 Campaign">SS20 Campaign</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="SS20 Lookbook">SS20 Lookbook</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="AW1920 Campaign">AW1920 Campaign</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="AW1920 Catwalk">AW1920 Catwalk</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="sub-btn" title="AK for Vivienne Westwood">AK for Vivienne Westwood</a>
+                                            <div class="sub-sub sub-sub21">
+                                                <ul>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="AK VW SS21 Lookbook">AK VW SS21 Lookbook</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="AK AW2021 campaign">AK AW2021 campaign</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="AK AW2021 Catwalk">AK AW2021 Catwalk</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="AK SS20 Catwalk">AK SS20 Catwalk</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="AKAW1920 Catwalk">AKAW1920 Catwalk</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <a href="#" class="sub-btn" title="Anglomania">Anglomania</a>
+                                            <div class="sub-sub sub-sub22">
+                                                <ul>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="Anglomania Campaign AW1920">Anglomania Campaign AW1920</a></li>
+                                                    <li><a href="javascript:void(0);" class="sub-sub-btn" title="Anglomania Campaign SS19">Anglomania Campaign SS19</a></li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li><a href="#" class="sub-btn" title="Worlds End Campaign">Worlds End Campaign</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="middle">
+                    <h1><a href="./index.html" class="logo-1" title="logo"><img src="./img/logo-white.svg" alt="logo"></a></h1>
+                    <h1><a href="./index.html" class="logo-2" title="logo"><img src="./img/logo.svg" alt="logo"></a></h1>
+                </div>
+                <div class="right">
+                    <nav id="nav1">
+                        <ul>
+                            <li><a href="javascript:void(0);" class="search-icon-btn" title="search"><i class="fab fa-sistrix"></i></a></li>
+                            <li><a href="javascript:void(0);" class="login1-btn" title="로그인 / 회원가입">로그인 / 회원가입</a></li>
+                            <li><a href="javascript:void(0);" class="service-btn" title="쇼핑백 0">쇼핑백 0</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main id="main">
+            <section id="section1">
+                <span><a href="https://viviennewestwood.kr/category/09?order=&page=1" title="COLLECTION"><img src="./img/1599203714_0.jpg" alt="COLLECTION"></a></span>
+                <h3><a href="#section2"  class="smooth-btn" title="20F/W COLLECTION">20F/W COLLECTION<i></i></a></h3>
+            </section>
+            <section id="section2" class="fixedclear">
+                <div class="left">
+                    <span><a href="https://viviennewestwood.kr/category/01?order=&page=1" title="WOMEN`S ITEM"><img src="./img/1599203762_0.jpg" alt=""></a></span>
+                    <h4><a href="#section3"  class="smooth-btn" title="WOMEN`S ITEM">WOMEN`S ITEM<i></i></a></h4>
+                </div>
+                <div class="right">
+                    <span><a href="https://viviennewestwood.kr/category/02?order=&page=1" title="WOMEN`S ITEM"><img src="./img/1599203762_1.jpg" alt=""></a></span>
+                    <h4><a href="#section3"  class="smooth-btn" title="MEN`S ITEM">MEN`S ITEM<i></i></a></h4>
+                </div>
+            </section>
+            <section id="section3">
+                <div class="wrap">
+                    <div class="up">
+                        <div class="left">
+                            <h3>20FW NEW ARRIVALS<a href="#section4" class="smooth-btn" title="VIEW ALL">VIEW ALL</a></h3>
+                        </div>
+                        <div class="right">
+                            <a href="#section2" class="smooth-btn" title="factories"><img src="./img/farms-not-factories.svg" alt="farms-not-factories"></a>
+                        </div>
+                    </div>
+                    <div class="down">
+                        <div class="slide-container">
+                            <div class="slide-view">
+                                <ul class="slide-wrap fixedclear">
+                                    <li class="slide slide09"><div><a href="javascript:void(0);" title="slide09"><img src="./img/slide_9.jpg" alt=""></a><span class="txt1"><a href="#" title="FLUO CARDIGAN">FLUO CARDIGAN</a></span><span class="txt2"><a href="#" title="680,000원">680,000원</a></span></div></li>
+                                    <li class="slide slide10"><div><a href="javascript:void(0);" title="slide10"><img src="./img/slide_10.jpg" alt=""></a><span class="txt1"><a href="#" title="BEA CARDIGAN">BEA CARDIGAN</a></span><span class="txt2"><a href="#" title="680,000원">680,000원</a></span></div></li>
+                                    <li class="slide slide11"><div><a href="javascript:void(0);" title="slide11"><img src="./img/slide_11.jpg" alt=""></a><span class="txt1"><a href="#" title="BEA CARDIGAN">BEA CARDIGAN</a></span><span class="txt2"><a href="#" title="680,000원">680,000원</a></span></div></li>
+                                    <li class="slide slide12"><div><a href="javascript:void(0);" title="slide12"><img src="./img/slide_12.jpg" alt=""></a><span class="txt1"><a href="#" title="BEA CARDIGAN">BEA CARDIGAN</a></span><span class="txt2"><a href="#" title="680,000원">680,000원</a></span></div></li>
+                                    <li class="slide slide13"><div><a href="javascript:void(0);" title="slide13"><img src="./img/slide_13.jpg" alt=""></a><span class="txt1"><a href="#" title="JOHANNA BUCKET">JOHANNA BUCKET</a></span><span class="txt2"><a href="#" title="430,000원">430,000원</a></span></div></li>
+                                    <li class="slide slide00"><div><a href="javascript:void(0);" title="slide00"><img src="./img/slide_0.jpg" alt=""></a><span class="txt1"><a href="#" title="GAIA SMALL RUNNER HOLDALL">GAIA SMALL RUNNER HOLDALL</a></span><span class="txt2"><a href="#" title="430,000원">430,000원</a></span></div></li>
+                                    <li class="slide slide01"><div><a href="javascript:void(0);" title="slide01"><img src="./img/slide_1.jpg" alt=""></a><span class="txt1"><a href="#" title="WORKER RUNNER HOLDALL">WORKER RUNNER HOLDALL</a></span><span class="txt2"><a href="#" title="530,000원">530,000원</a></span></div></li>
+                                    <li class="slide slide02"><div><a href="javascript:void(0);" title="slide02"><img src="./img/slide_2.jpg" alt=""></a><span class="txt1"><a href="#" title="ARCHIVE ORB FRAME PURSE">ARCHIVE ORB FRAME PURSE</a></span><span class="txt2"><a href="#" title="530,000원">530,000원</a></span></div></li>
+                                    <li class="slide slide03"><div><a href="javascript:void(0);" title="slide03"><img src="./img/slide_3.jpg" alt=""></a><span class="txt1"><a href="#" title="KENT SLIM CARD HOLDER">KENT SLIM CARD HOLDER</a></span><span class="txt2"><a href="#" title="180,000원">180,000원</a></span></div></li>
+                                    <li class="slide slide04"><div><a href="javascript:void(0);" title="slide04"><img src="./img/slide_4.jpg" alt=""></a><span class="txt1"><a href="#" title="SOFIA CARD HOLDER">SOFIA CARD HOLDER</a></span><span class="txt2"><a href="#" title="280,000원">280,000원</a></span></div></li>
+                                    <li class="slide slide05"><div><a href="javascript:void(0);" title="slide05"><img src="./img/slide_5.jpg" alt=""></a><span class="txt1"><a href="#" title="VICTORIA FRAME PURSE">VICTORIA FRAME PURSE</a></span><span class="txt2"><a href="#" title="430,000원">430,000원</a></span></div></li>
+                                    <li class="slide slide06"><div><a href="javascript:void(0);" title="slide06"><img src="./img/slide_6.jpg" alt=""></a><span class="txt1"><a href="#" title="ELENA FRAME PURSE">ELENA FRAME PURSE</a></span><span class="txt2"><a href="#" title="530,000원">530,000원</a></span></div></li>
+                                    <li class="slide slide07"><div><a href="javascript:void(0);" title="slide07"><img src="./img/slide_7.jpg" alt=""></a><span class="txt1"><a href="#" title="ELENA FRAME PURSE ">ELENA FRAME PURSE </a></span><span class="txt2"><a href="#" title="530,000원">530,000원</a></span></div></li>
+                                    <li class="slide slide08"><div><a href="javascript:void(0);" title="slide08"><img src="./img/slide_8.jpg" alt=""></a><span class="txt1"><a href="#" title="ANGLOMANIA KNIT CARDIGAN">ANGLOMANIA KNIT CARDIGAN</a></span><span class="txt2"><a href="#" title="730,000원">730,000원</a></span></div></li>
+                                    <li class="slide slide09"><div><a href="javascript:void(0);" title="slide09"><img src="./img/slide_9.jpg" alt=""></a><span class="txt1"><a href="#" title="FLUO CARDIGAN">FLUO CARDIGAN</a></span><span class="txt2"><a href="#" title="680,000원">680,000원</a></span></div></li>
+                                    <li class="slide slide10"><div><a href="javascript:void(0);" title="slide10"><img src="./img/slide_10.jpg" alt=""></a><span class="txt1"><a href="#" title="BEA CARDIGAN">BEA CARDIGAN</a></span><span class="txt2"><a href="#" title="680,000원">680,000원</a></span></div></li>
+                                    <li class="slide slide11"><div><a href="javascript:void(0);" title="slide11"><img src="./img/slide_11.jpg" alt=""></a><span class="txt1"><a href="#" title="BEA CARDIGAN">BEA CARDIGAN</a></span><span class="txt2"><a href="#" title="680,000원">680,000원</a></span></div></li>
+                                    <li class="slide slide12"><div><a href="javascript:void(0);" title="slide12"><img src="./img/slide_12.jpg" alt=""></a><span class="txt1"><a href="#" title="BEA CARDIGAN">BEA CARDIGAN</a></span><span class="txt2"><a href="#" title="680,000원">680,000원</a></span></div></li>
+                                    <li class="slide slide13"><div><a href="javascript:void(0);" title="slide13"><img src="./img/slide_13.jpg" alt=""></a><span class="txt1"><a href="#" title="JOHANNA BUCKET">JOHANNA BUCKET</a></span><span class="txt2"><a href="#" title="430,000원">430,000원</a></span></div></li>
+                                    <li class="slide slide00"><div><a href="javascript:void(0);" title="slide00"><img src="./img/slide_0.jpg" alt=""></a><span class="txt1"><a href="#" title="GAIA SMALL RUNNER HOLDALL">GAIA SMALL RUNNER HOLDALL</a></span><span class="txt2"><a href="#" title="430,000원">430,000원</a></span></div></li>
+                                    <li class="slide slide01"><div><a href="javascript:void(0);" title="slide01"><img src="./img/slide_1.jpg" alt=""></a><span class="txt1"><a href="#" title="WORKER RUNNER HOLDALL">WORKER RUNNER HOLDALL</a></span><span class="txt2"><a href="#" title="530,000원">530,000원</a></span></div></li>
+                                    <li class="slide slide02"><div><a href="javascript:void(0);" title="slide02"><img src="./img/slide_2.jpg" alt=""></a><span class="txt1"><a href="#" title="ARCHIVE ORB FRAME PURSE">ARCHIVE ORB FRAME PURSE</a></span><span class="txt2"><a href="#" title="530,000원">530,000원</a></span></div></li>
+                                    <li class="slide slide03"><div><a href="javascript:void(0);" title="slide03"><img src="./img/slide_3.jpg" alt=""></a><span class="txt1"><a href="#" title="KENT SLIM CARD HOLDER">KENT SLIM CARD HOLDER</a></span><span class="txt2"><a href="#" title="180,000원">180,000원</a></span></div></li>
+                                    <li class="slide slide04"><div><a href="javascript:void(0);" title="slide04"><img src="./img/slide_4.jpg" alt=""></a><span class="txt1"><a href="#" title="SOFIA CARD HOLDER">SOFIA CARD HOLDER</a></span><span class="txt2"><a href="#" title="280,000원">280,000원</a></span></div></li>
+                                </ul>
+                            </div>
+                            <span class="next-btn-wrap"><a href="javascript:void(0);" class="next-btn" title="Next"><img src="./img/btn_next.png" alt="Next"></a></span>
+                            <span class="prev-btn-wrap"><a href="javascript:void(0);" class="prev-btn" title="Prev"><img src="./img/btn_prev.png" alt="Prev"></a></span>
+                            
+                            <ul class="page-wrap">
+                                <li><div><a href="javascript:void(0);" class="pause-play-btn blind" title="Pause Play Button">Pause Play Button</a></div></li>
+                                <li><div><a href="javascript:void(0);" class="page0-btn blind addPageBtn" title="Page0 Button">Page0 Button</a></div></li>
+                                <li><div><a href="javascript:void(0);" class="page0-btn blind" title="Page1 Button">Page1 Button</a></div></li>
+                                <li><div><a href="javascript:void(0);" class="page0-btn blind" title="Page2 Button">Page2 Button</a></div></li>
+                                <li><div><a href="javascript:void(0);" class="page0-btn blind" title="Page3 Button">Page3 Button</a></div></li>
+                                <li><div><a href="javascript:void(0);" class="page0-btn blind" title="Page4 Button">Page4 Button</a></div></li>
+                                <li><div><a href="javascript:void(0);" class="page0-btn blind" title="Page5 Button">Page5 Button</a></div></li>
+                                <li><div><a href="javascript:void(0);" class="page0-btn blind" title="Page6 Button">Page6 Button</a></div></li>
+                                <li><div><a href="javascript:void(0);" class="page0-btn blind" title="Page7 Button">Page7 Button</a></div></li>
+                                <li><div><a href="javascript:void(0);" class="page0-btn blind" title="Page8 Button">Page8 Button</a></div></li>
+                                <li><div><a href="javascript:void(0);" class="page0-btn blind" title="Page9 Button">Page9 Button</a></div></li>
+                                <li><div><a href="javascript:void(0);" class="page0-btn blind" title="Page10 Button">Page10 Button</a></div></li>
+                                <li><div><a href="javascript:void(0);" class="page0-btn blind" title="Page11 Button">Page11 Button</a></div></li>
+                                <li><div><a href="javascript:void(0);" class="page0-btn blind" title="Page12 Button">Page12 Button</a></div></li>
+                                <li><div><a href="javascript:void(0);" class="page0-btn blind" title="Page13 Button">Page13 Button</a></div></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="last-down">
+                        <a href="#section4" class="down-btn smooth-btn" title="down"><img src="./img/logo-slim.png" alt=""></a>
+                    </div>
+                </div>
+            </section>
+            <section id="section4">
+                <h2>
+                    LONDON - 08. 01. 2018 “I’M A FASHION DESIGNER AND ACTIVIST. YOU ALL KNOW WHAT I’M UP TO, I USE FASHION AS A VEHICLE FOR ACTIVISM TO STOP CLIMATE CHANGE AND MASS EXTINCTION OF LIFE ON EARTH
+                </h2>
+            </section>
+            <section id="section5">
+                <div class="wrap fixedclear">
+                    <div class="left">
+                        <h2 class="hide">section5</h2>
+                        <img src="./img/Jewellery.jpg" alt="Jewellery">
+                    </div>
+                    <div class="right">
+                        <div class="right-wrap">
+                            <div class="shop shop1"><a href="#section6" class="smooth-btn" title="JEWELLERY">JEWELLERY<i></i></a></div>
+                            <div class="shop shop2"><a href="#section3" class="smooth-btn" title="ACCESSORIES">ACCESSORIES<i></i></a></div>
+                            <div class="shop shop3"><a href="https://viviennewestwood.kr/category/0104?order=&page=1" title="WALLETS">WALLETS<i></i></a></div>
+                            <div class="shop shop4"><a href="https://viviennewestwood.kr/category/0103?order=&page=1" title="BAGS">BAGS<i></i></a></div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section id="section6">
+                <div class="wrap">
+                    <div class="up">
+                        <h2 class="hide">section6</h2>
+                        <span>
+                            <a href="#section5" class="smooth-btn" title="INSTAGRAM">FOLLOW<b>@VIVIENNEWESTWOODKOREA</b>ON INSTAGRAM</a>
+                        </span>
+                    </div>
+                    <div class="down">
+                        <div class="slide-container">
+                            <div class="slide-view">
+                                <ul class="slide-wrap-sec6 fixedclear">
+                                    <li class="slide6 slide03"><div><a href="javascript:void(0);" title="slide03"><img src="./img/ins_03.jpg" alt=""></a></div></li>
+                                    <li class="slide6 slide04"><div><a href="javascript:void(0);" title="slide04"><img src="./img/ins_04.jpg" alt=""></a></div></li>
+                                    <li class="slide6 slide05"><div><a href="javascript:void(0);" title="slide05"><img src="./img/ins_05.jpg" alt=""></a></div></li>
+                                    <li class="slide6 slide06"><div><a href="javascript:void(0);" title="slide06"><img src="./img/ins_06.jpg" alt=""></a></div></li>
+                                    <li class="slide6 slide07"><div><a href="javascript:void(0);" title="slide07"><img src="./img/ins_07.jpg" alt=""></a></div></li>
+                                    <li class="slide6 slide08"><div><a href="javascript:void(0);" title="slide08"><img src="./img/ins_08.jpg" alt=""></a></div></li>
+                                    <li class="slide6 slide09"><div><a href="javascript:void(0);" title="slide09"><img src="./img/ins_09.jpg" alt=""></a></div></li>
+                                    <li class="slide6 slide10"><div><a href="javascript:void(0);" title="slide10"><img src="./img/ins_10.jpg" alt=""></a></div></li>
+                                    <li class="slide6 slide01"><div><a href="javascript:void(0);" title="slide01"><img src="./img/ins_01.jpg" alt=""></a></div></li>
+                                    <li class="slide6 slide02"><div><a href="javascript:void(0);" title="slide02"><img src="./img/ins_02.jpg" alt=""></a></div></li>
+                                    <li class="slide6 slide03"><div><a href="javascript:void(0);" title="slide03"><img src="./img/ins_03.jpg" alt=""></a></div></li>
+                                    <li class="slide6 slide04"><div><a href="javascript:void(0);" title="slide04"><img src="./img/ins_04.jpg" alt=""></a></div></li>
+                                    <li class="slide6 slide05"><div><a href="javascript:void(0);" title="slide05"><img src="./img/ins_05.jpg" alt=""></a></div></li>
+                                    <li class="slide6 slide06"><div><a href="javascript:void(0);" title="slide06"><img src="./img/ins_06.jpg" alt=""></a></div></li>
+                                    <li class="slide6 slide07"><div><a href="javascript:void(0);" title="slide07"><img src="./img/ins_07.jpg" alt=""></a></div></li>
+                                    <li class="slide6 slide08"><div><a href="javascript:void(0);" title="slide08"><img src="./img/ins_08.jpg" alt=""></a></div></li>
+                                    <li class="slide6 slide09"><div><a href="javascript:void(0);" title="slide09"><img src="./img/ins_09.jpg" alt=""></a></div></li>
+                                    <li class="slide6 slide10"><div><a href="javascript:void(0);" title="slide10"><img src="./img/ins_10.jpg" alt=""></a></div></li>
+                                    <li class="slide6 slide01"><div><a href="javascript:void(0);" title="slide01"><img src="./img/ins_01.jpg" alt=""></a></div></li>
+                                    <li class="slide6 slide02"><div><a href="javascript:void(0);" title="slide02"><img src="./img/ins_02.jpg" alt=""></a></div></li>
+                                    <li class="slide6 slide03"><div><a href="javascript:void(0);" title="slide03"><img src="./img/ins_03.jpg" alt=""></a></div></li>
+                                    <li class="slide6 slide04"><div><a href="javascript:void(0);" title="slide04"><img src="./img/ins_04.jpg" alt=""></a></div></li>
+                                    <li class="slide6 slide05"><div><a href="javascript:void(0);" title="slide05"><img src="./img/ins_05.jpg" alt=""></a></div></li>
+                                    <li class="slide6 slide06"><div><a href="javascript:void(0);" title="slide06"><img src="./img/ins_06.jpg" alt=""></a></div></li>
+                                    <li class="slide6 slide07"><div><a href="javascript:void(0);" title="slide07"><img src="./img/ins_07.jpg" alt=""></a></div></li>
+                                    <li class="slide6 slide08"><div><a href="javascript:void(0);" title="slide08"><img src="./img/ins_08.jpg" alt=""></a></div></li>
+                                </ul>
+                            </div>
+                            <span class="next6-btn-wrap"><a href="javascript:void(0);" class="next6-btn" title="Next"><img src="./img/btn_next.png" alt="Next"></a></span>
+                            <span class="prev6-btn-wrap"><a href="javascript:void(0);" class="prev6-btn" title="Prev"><img src="./img/btn_prev.png" alt="Prev"></a></span>
+
+                            <ul class="page6-wrap">
+                                <li><div><a href="javascript:void(0);" class="page-btn blind" title="Page Button">Page Button</a></div></li>
+                                <li><div><a href="javascript:void(0);" class="page-chk-btn blind addPageBtn" title="Page1 Button">Page1 Button</a></div></li>
+                                <li><div><a href="javascript:void(0);" class="page-chk-btn blind" title="Page2 Button">Page2 Button</a></div></li>
+                                <li><div><a href="javascript:void(0);" class="page-chk-btn blind" title="Page3 Button">Page3 Button</a></div></li>
+                                <li><div><a href="javascript:void(0);" class="page-chk-btn blind" title="Page4 Button">Page4 Button</a></div></li>
+                                <li><div><a href="javascript:void(0);" class="page-chk-btn blind" title="Page5 Button">Page5 Button</a></div></li>
+                                <li><div><a href="javascript:void(0);" class="page-chk-btn blind" title="Page6 Button">Page6 Button</a></div></li>
+                                <li><div><a href="javascript:void(0);" class="page-chk-btn blind" title="Page7 Button">Page7 Button</a></div></li>
+                                <li><div><a href="javascript:void(0);" class="page-chk-btn blind" title="Page8 Button">Page8 Button</a></div></li>
+                                <li><div><a href="javascript:void(0);" class="page-chk-btn blind" title="Page9 Button">Page9 Button</a></div></li>
+                                <li><div><a href="javascript:void(0);" class="page-chk-btn blind" title="Page10 Button">Page10 Button</a></div></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer id="footer" class="fixedclear">
+            <div class="left">
+                <div class="wrap">
+                    <ul class="notice-wrap">
+                        <li><a href="javascript:void(0);" title="고객센터">고객센터</a></li>
+                        <li><a href="javascript:void(0);" title="배송안내">배송안내</a></li>
+                        <li><a href="javascript:void(0);" title="반품 및 교환">반품 및 교환</a></li>
+                        <li><a href="javascript:void(0);" title="배송조회">배송조회</a></li>
+                        <li><a href="javascript:void(0);" title="1:1문의하기">1:1문의하기</a></li>
+                        <li><a href="javascript:void(0);" title="공지사항">공지사항</a></li>
+                        <li><a href="javascript:void(0);" title="F & Q">F & Q</a></li>
+                        <li><a href="javascript:void(0);" title="매장안내">매장안내</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right">
+                <div class="wrap">
+                    <h6>뉴스레터 구독</h6>
+                    <div class="list1">
+                        <input type="email" name="fEmail" id="fEmail" value="" placeholder="E-MAIL 주소*">
+                        <button type="button">구독하기</button>
+                    </div>
+                    <div class="list2">
+                        <input type="checkbox" name="fChk" id="fChk" value="개인정보">
+                        <span><a href="javascript:void(0);" title="">개인정보 수집 및 이용에 동의합니다.*</a></span>
+                    </div>
+                    <div class="list3">
+                        <span class="w-rad">
+                            <input type="radio" name="fRad" id="fRad1" value="WOMAN">
+                            <label for="fRad1">WOMAN</label>
+                        </span>
+                        <span class="m-rad">
+                            <input type="radio" name="fRad" id="fRad2" value="MAN">
+                            <label for="fRad2">MAN</label>
+                        </span>
+                    </div>
+                    <span class="list4">
+                        <a href="javascript:void(0);" title="개인정보취급방침">개인정보취급방침</a>
+                    </span>
+                    <div class="list5">
+                        <p>FIND US ON:</p>
+                        <span><a href="javascript:void(0);" title="instagram"><i class="fab fa-instagram"></i></a></span>
+                        <span><a href="javascript:void(0);" title="facebook"><i class="fab fa-facebook-f"></i></a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="down">
+                <div class="wrap">
+                    <address>
+                        <ul>
+                            <li>
+                                <span>지인터내셔날(주)</span><i>|</i>
+                                <span>서울특별시 강남구 논현로133길 13, 2층(논현동,권훈빌딩)</span><i>|</i>
+                                <span>사업자 등록번호 211-88-72607</span><i>|</i>
+                                <span>통신판매업신고번호 : 제 2015-서울강남-01560호</span>
+                            </li>
+                            <li>
+                                <span>대표:정철하</span><i>|</i>
+                                <span>고객센터:1899-6407</span><i>|</i>
+                                <span>FAX:02-3015-6449</span><i>|</i>
+                                <span>개인정보책임자:정철하</span>
+                            </li>
+                        </ul>
+                    </address>
+                </div>
+            </div>
+        </footer>
+
+        <!-- go top 버튼 -->
+        <div class="goTop">
+            <a href="#header" class="gotop-btn smooth-btn">
+                <span class="arrow-up">
+                    <i></i>
+                    <span class="text-top">TOP</span>
+                </span>
+            </a>
+        </div>
+
+        <!-- 퀵메뉴 -->
+        <div class="quick">
+            <span>
+                <a href="https://viviennewestwood.kr/category/0A?order=&page=1" class="qui1" title="vw-eastpak"><img src="./img/logo-slim-w.png" alt=""></a>
+            </span>
+            <span>
+                <a href="https://viviennewestwood.kr/category/0A?order=&page=1" class="qui2" title="vw-eastpak"><img src="./img/logo-slim.png" alt=""></a>
+            </span>
+        </div>
+
+        <!-- 모달창 = 레이어팝업 -->
+        <div class="modal">
+            <div class="img-wrap">
+                <a href="javascript:void(0);" class="img-btn" title="image"><img src="./img/slide_0.jpg" alt=""></a>
+            </div>
+            <span class="arrow-left">
+                <a href="javascript:void(0);" class="arrow-left-btn"><img src="./img/btn_prev.png" alt=""></a>
+            </span>
+            <span class="arrow-right">
+                <a href="javascript:void(0);" class="arrow-right-btn"><img src="./img/btn_next.png" alt=""></a>
+            </span>
+            <span class="close5">
+                <a href="javascript:void(0);" class="close5-btn" title="close">×</a>
+            </span>
+        </div>
+
+        <!-- <div class="w3c-html5">
+            <p>
+                <a href="http://validator.kldp.org/check?uri=referer"
+                  onclick="this.href=this.href.replace(/referer$/,encodeURIComponent(document.URL))"><img
+                  src="http://validator.kldp.org/w3cimgs/validate/html5-blue.png" alt="Valid HTML 5" height="15" width="80"></a>
+            </p>
+
+            <p>
+                <a href="http://css-validator.kldp.org/check/referer">
+                    <img style="border:0;width:80px;height:15px"
+                        src="http://css-validator.kldp.org/images/validate/css-blue"
+                        alt="올바른 CSS입니다!" />
+                </a>
+            </p>
+        </div> -->
+
+        <script src="./js/vw_mall.js"></script>
+
+    </div>
+
+</body>
+</html>
