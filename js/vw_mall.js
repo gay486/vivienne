@@ -186,7 +186,9 @@
             var cnt=0;
             var setId=0;
             var setId2=0;
-            var cnt3=0;
+            var fileName = null;
+            var endNum  = null;
+            var fileNum  = null;
 
                 function nextFn(){
                     cnt++;
@@ -297,42 +299,48 @@
                 });
 
                 // 모달창 열기
-                $('.slide').on({
+                $('.slide-img').on({
                     click: function(){
-                        $('.modal').stop().fadeIn(300);
-                        $('html').addClass('addScroll');
+                        // 파일번호 추출
+                        fileName = $(this).find('img').attr('src');
+                        endNum = fileName.indexOf('.jpg');   // = search()
+                        fileNum = Number(fileName.slice(endNum-2,endNum));
+
+                        modalSlideFn();
                     }
                 });
+
+                function modalSlideFn(){
+                    $('.modal').stop().fadeIn(300);
+                    $('.img-wrap img').stop().fadeOut(0).attr('src','./img/slide_' + fileNum + '.jpg').fadeIn(1000);
+                }
                 // 모달창 닫기
                 $('.close5-btn, .img-wrap').on({
                     click: function(){
                         $('.modal').stop().fadeOut(300);
-                        $('html').removeClass('addScroll');
                     }
                 });
                 // 모달창 이미지 버튼
                 $('.img-btn, .arrow-right-btn').on({
                     click: function(e){
                         e.stopPropagation();
-                        cnt3++;
-                        if(cnt3>13){
-                            cnt3=0;
+
+                        fileNum++;
+                        if(fileNum>34){
+                            fileNum=21;
                         }
-                        var txt = '<img src="./img/slide_' + cnt3 + '.jpg" alt="">'
-                        
-                        $('.img-btn').html(txt);
+                        modalSlideFn();
                     }
                 });
                 // 뒤로가기 버튼
                 $('.arrow-left-btn').on({
                     click: function(){
-                        cnt3--;
-                        if(cnt3<0){
-                            cnt3=13;
+
+                        fileNum--;
+                        if(fileNum<21){
+                            fileNum=34;
                         }
-                        var txt = '<img src="./img/slide_' + cnt3 + '.jpg" alt="">'
-                        
-                        $('.img-btn').html(txt);
+                        modalSlideFn();
                     }
                 });
 
